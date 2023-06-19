@@ -22,7 +22,9 @@
 
 (setq backup-directory-alist '(("." . "~/.emacs_saves")))
 
+;; this one is pretty much self explanatory
 
+(set-frame-font "Envy Code R 12" nil t)
 
 (require 'ido)
 (ido-mode t) ;; for my FILE SEARCHS
